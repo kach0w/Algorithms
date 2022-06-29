@@ -1,2 +1,2 @@
 # Algorithms
-I am going to add implementations of algorithms in java here.
+I am going to add implementations of various algorithms in java here.
