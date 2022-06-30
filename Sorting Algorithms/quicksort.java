@@ -20,11 +20,9 @@ class quicksort {
             return;
         }
 
-        //Get the pivot element from the middle of the list
         int middle = low + (high - low) / 2;
         int pivot = arr[middle];
 
-        // make left < pivot and right > pivot
         int i = low, j = high;
         while (i <= j) {
             while (arr[i] < pivot) {
@@ -53,4 +51,3 @@ class quicksort {
         array[y] = temp;
     }
 }
-
